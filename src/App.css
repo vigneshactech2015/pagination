@@ -1,0 +1,52 @@
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+  font-family:sans-serif;
+}
+
+.container{
+  width:100%;
+  max-width:1000px;
+  margin:20px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card{
+  width:100%;
+  max-width:318px;
+  padding:20px;
+  background: #333;
+color:white;
+margin:10px 0;
+}
+
+.id{
+  width:40px;
+  height:40px;
+  border:2px solid white;
+  display: flex;
+}
+
+span{
+  margin:auto;
+  font-size: 17px;
+}
+
+p{
+  font-size:17px;
+  margin:15px 0 0;
+}
+
+button{
+  border:none;
+  outline:none;
+  width:100%;
+  padding:16px 0;
+  background:#333;
+color:white;
+cursor: pointer;
+
+}
